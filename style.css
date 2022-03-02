@@ -1,0 +1,71 @@
+:root{
+    --Very-dark-blue: hsl(233, 47%, 7%);
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+    --Soft-violet: hsl(277, 64%, 61%);
+    --White: hsl(0, 0%, 100%);
+    --Slightly-transparent-white-75: hsla(0, 0%, 100%, 0.75);
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Inter', sans-serif;
+    background-color: var(--Very-dark-blue);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.intro {
+    color: var(--White);
+}
+
+h1 span{
+    color: var(--Soft-violet);    
+}
+
+.card{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    width: 1080px;
+    height: 446px;
+    background: var(--Dark-desaturated-blue);
+}
+
+.intro{
+    width: 70%;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    align-self: center; */
+}
+
+.intro p{
+    color:var(--Slightly-transparent-white-75);
+}
+
+.commodity{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lexend-Deca{
+    font-family:'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--Slightly-transparent-white);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
